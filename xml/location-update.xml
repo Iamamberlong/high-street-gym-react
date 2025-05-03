@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE location-upload [
+    <!ELEMENT location-upload (locations)>
+    <!ATTLIST location-upload operation (insert|update) "insert">
+    <!ELEMENT locations (location+)>
+    <!ELEMENT location (id?, name, address, phone)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+]>
+
+
+<!-- Update version  -->
+<location-upload operation="update">
+    <locations>
+        <location>
+            <id>1</id>
+            <name>Ashgrove</name>
+            <address>25 Ashgrove Ave, Ashgrove QLD 4060</address>
+            <phone>07 1234 5678</phone>
+        </location>
+        <!-- <location>
+            <id>2</id>
+            <address>80 queen street, brisbane city</address>
+        </location> -->
+
+    </locations>
+</location-upload>

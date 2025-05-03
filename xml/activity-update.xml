@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE activity-upload [
+    <!ELEMENT activity-upload (activities)>
+    <!ATTLIST activity-upload operation (insert|update) "insert">
+    <!ELEMENT activities (activity+)>
+    <!ELEMENT activity (id?, name, description, duration)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT duration (#PCDATA)>
+]>
+
+
+<activity-upload operation="update">
+    <activities>
+        <activity>
+            <id>1</id>
+            <name>Hot Air Yoga </name>
+            <description>Hot Air Yoga is very hot and very healthy!</description>
+            <duration>45min</duration>
+        </activity>
+    </activities>
+</activity-upload>

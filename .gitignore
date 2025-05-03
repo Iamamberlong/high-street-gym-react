@@ -1,0 +1,21 @@
+# Node modules under root
+node_modules/
+
+# Node modules for frontend
+frontend/node_modules/
+
+# Node modules for backend
+backend/node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore .env file in backend
+backend/.env

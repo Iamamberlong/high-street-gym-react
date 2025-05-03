@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE location-upload [
+    <!ELEMENT location-upload (locations)>
+    <!ATTLIST location-upload operation (insert|update) "insert">
+    <!ELEMENT locations (location+)>
+    <!ELEMENT location (id?, name, address, phone)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+]>
+
+<location-upload operation="insert">
+    <locations>
+        <location>
+            <name>Test</name>
+            <address>221 Gooderham Raod, Willawong 4110</address>
+            <phone>07 3457 9345</phone>
+        </location>
+    </locations>
+</location-upload>
+
+<!-- Update version  -->
+<!-- <location-upload operation="update">
+    <locations>
+        <location>
+            <id>1</id>
+            <name>Ashgrove hills </name>
+        </location>
+        <location>
+            <id>2</id>
+            <address>80 queen street, brisbane city</address>
+        </location>
+
+    </locations>
+</location-upload> -->

@@ -1,0 +1,91 @@
+{
+  "hash": "1e2db5bd",
+  "configHash": "6e167438",
+  "lockfileHash": "9c28240a",
+  "browserHash": "2750f4d2",
+  "optimized": {
+    "react": {
+      "src": "../../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0483e6a3",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "5db8f462",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "cee68632",
+      "needsInterop": false
+    },
+    "jwt-decode": {
+      "src": "../../../node_modules/jwt-decode/build/esm/index.js",
+      "file": "jwt-decode.js",
+      "fileHash": "29466de1",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "268e8a4b",
+      "needsInterop": false
+    },
+    "@heroicons/react/solid": {
+      "src": "../../../node_modules/@heroicons/react/solid/esm/index.js",
+      "file": "@heroicons_react_solid.js",
+      "fileHash": "de7122f6",
+      "needsInterop": false
+    },
+    "validator": {
+      "src": "../../../node_modules/validator/index.js",
+      "file": "validator.js",
+      "fileHash": "65f61062",
+      "needsInterop": true
+    },
+    "leaflet": {
+      "src": "../../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "a00ef0f9",
+      "needsInterop": true
+    },
+    "react-icons/fa": {
+      "src": "../../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "08ee2ed1",
+      "needsInterop": false
+    },
+    "@fortawesome/react-fontawesome": {
+      "src": "../../../node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "file": "@fortawesome_react-fontawesome.js",
+      "fileHash": "57e2e79e",
+      "needsInterop": false
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "src": "../../../node_modules/@fortawesome/free-brands-svg-icons/index.mjs",
+      "file": "@fortawesome_free-brands-svg-icons.js",
+      "fileHash": "b950c45e",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "1b46c018",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HNHEAVQL": {
+      "file": "chunk-HNHEAVQL.js"
+    },
+    "chunk-HBQ5JO3D": {
+      "file": "chunk-HBQ5JO3D.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}

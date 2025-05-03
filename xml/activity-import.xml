@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE activity-upload [
+    <!ELEMENT activity-upload (activities)>
+    <!ATTLIST activity-upload operation (insert|update) "insert">
+    <!ELEMENT activities (activity+)>
+    <!ELEMENT activity (id?, name, description, duration)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT duration (#PCDATA)>
+]>
+<activity-upload operation="insert">
+    <activities>
+        <activity>
+            <name>Test Yoga</name>
+            <description>Sauna Yoga is practiced in a even higher room temperature</description>
+            <duration>45min</duration>
+        </activity>
+        <!-- <activity>
+            <name> CrossFit </name>
+            <description>CrossFit is a high-intensity fitness program that combines elements of
+                weightlifting, gymnastics, and cardio. Workouts are varied and designed to improve
+                overall fitness and functional strength through constantly changing exercises.
+                CrossFit classes often involve short, intense bursts of exercise followed by rest or
+                lighter activity.</description>
+            <duration>60min</duration>
+        </activity> -->
+        <!-- <activity>
+            <name>TRX Training</name>
+            <description>TRX training uses suspension straps to perform bodyweight exercises that
+                challenge balance, flexibility, and core stability. The TRX system allows for a wide
+                range of exercises that can be adjusted for different fitness levels and target
+                various muscle groups.</description>
+            <duration>60min</duration>
+        </activity> -->
+    </activities>
+</activity-upload>
+
+<!-- <activity-upload operation="update">
+    <activities>
+        <activity>
+            <id>1</id>
+            <name>Hot Air Yoga </name>
+            <description>Hot Air Yoga is very hot and very healthy!</description>
+            <duration>45min</duration>
+        </activity>
+    </activities>
+</activity-upload> -->
